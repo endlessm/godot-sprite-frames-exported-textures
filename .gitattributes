@@ -1,0 +1,10 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Only include the addon itself when downloading from the Asset Library.
+/**                                         export-ignore
+/addons                                    !export-ignore
+/addons/sprite_frames_exported_textures    !export-ignore
+/addons/sprite_frames_exported_textures/** !export-ignore
+
+/addons/sprite_frames_exported_textures/plugin.cfg  export-subst
