@@ -9,5 +9,6 @@
   "download_provider": "GitHub",
   "download_commit": "{{ env.GITHUB_SHA }}",
   "browse_url": "{{ context.repository.html_url }}",
-  "issues_url": "{{ context.repository.html_url }}/issues"
+  "issues_url": "{{ context.repository.html_url }}/issues",
+  "icon_url": "https://raw.githubusercontent.com/{{ context.repository.full_name }}/{{ context.release.tag_name }}/icon.png"
 }
