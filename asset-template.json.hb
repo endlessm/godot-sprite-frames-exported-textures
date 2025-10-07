@@ -4,7 +4,7 @@
   "category_id": "5",
   "godot_version": "4.3",
   "version_string": "{{ context.release.name }}",
-  "cost": "MIT",
+  "cost": "MPL-2.0",
   "support_level": "community",
   "download_provider": "GitHub",
   "download_commit": "{{ env.GITHUB_SHA }}",
